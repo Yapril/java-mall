@@ -19,3 +19,7 @@
 # 真实遇到的知识点
 1、静态代码块负责加载驱动？<br>
 2、单例模式？<br>
+3、PreparedStatement stmt = null;//语句对象<br>
+		ResultSet rs = null;//数据集<br>
+		这些是啥<br>
+4、
