@@ -10,6 +10,21 @@
 <title>商城首页</title>
 </head>
 <body>
+	<ul class="nav nav-pills">
+		<%
+			String loginUser = "";
+			if(session.getAttribute("loginUser")!=null) {
+				loginUser = session.getAttribute("loginUser").toString();
+		%>
+		<li>欢饮您！<%=loginUser %></li>
+		<%
+			} else {
+		%>
+		<li><a href="login.jsp">登录</a></li>
+		<%
+			}
+		%>
+	</ul>
 	<div class="container">
 		<h1>商品展示</h1>
 		<hr>
