@@ -2,6 +2,7 @@
     pageEncoding="UTF-8"%>
 <%@ page import="entity.MallItems" %>
 <%@ page import="dao.MallItemsDAO" %>
+<%@ page import="java.net.*" %>
 <!DOCTYPE html>
 <html>
 <head>
