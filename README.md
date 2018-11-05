@@ -17,11 +17,13 @@
 2、自动登录的账号密码信息、访问记录存在Cookie里<br>
 
 # 进度Mark
-### 2018.11.2
+## 2018.11.2
 完成首页商品列表的展示、完成登录功能<br>
 接下来对登录功能进一步完善：<br>
-1、登录失败时在登录界面上显示失败；<br>
-2、登录成功后+退出登录功能；<br>
+√1、登录失败时在登录界面上显示失败；<br>
+在重定向前利用JOptionPane.showMessageDialog，要import包javax.swing.*<br>
+√2、登录成功后+退出登录功能；<br>
+退出登录=销毁session:session.removeAttribute<br>
 3、+记住我功能（让用户在10天内可以自动登录）。<br>
 
 

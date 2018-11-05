@@ -17,6 +17,7 @@
 				loginUser = session.getAttribute("loginUser").toString();
 		%>
 		<li>欢饮您！<%=loginUser %></li>
+		<li><a href="dologin.jsp">退出</a></li>
 		<%
 			} else {
 		%>

@@ -22,11 +22,11 @@
 						</div>
 						<div class="form-group">
 							<label for="password">密码：</label>
-							<input type="text" class="form-control" id="password" name="password">
+							<input type="password" class="form-control" id="password" name="password">
 						</div>
 						<div class="form-check">
 							<label for="" class="form-check-label">
-								<input type="checkbox" class="form-check-input">记住我
+								<input type="checkbox" class="form-check-input" name="isUseCookie">十天内记住我
 							</label>
 						</div>
 						<button class="btn btn-primary" type="submit">登录</button>
